@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Josefin+Sans:ital,wght@1,300&family=Mukta:wght@200&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#ee5a5a;
+}
+
+h1{
+    font-family: "Josefin Sans";
+    font-size: 100px;
+    color:#f2b5a9;
+    text-shadow: 2px 2px 8px #aaa;
+    margin-bottom: 8px;
+}
+
+p{
+    font-size: 15px;
+    color:#f2b5a9;
+    margin-top: 10px;
+    text-align: center;
+    /* border: 1px solid #000; */
+    padding: 10px;
+}
+
+form{
+    padding: 20px;
+}
+
+fieldset{
+    width: 600px;
+    height: 430px;
+    background-color: #ae6864;
+    padding: 35px;
+    border-radius: 20px 70px;
+}
+
+label{
+    font-size: 16px;
+    /* margin: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    text-shadow: 0 0 5px #aaa;
+}
+
+.select{
+    width: 620px;
+    height: 30px;
+    border-radius: 20px 50px;
+    padding-left:18px;
+}
+
+#fullname, #email{
+    width: 600px;
+    height: 30px;
+    border-radius: 20px 50px;
+    border: 0;
+    padding-left: 18px;
+}
+
+textarea{
+    width: 600px;
+    height: 50px;
+    border-radius: 20px 50px;
+    padding-left: 10px;
+}
+
+.button{
+    background-color: #ee5a5a; /* Green */
+    border: none;
+    color: #f2b5a9;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 30px 70px;
+    font-style: italic;
+}
+
+.button:hover{
+    width: 250px;
+    height: 40px;
+    background-color: #ddd;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Josefin Sans";
+}
